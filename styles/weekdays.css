@@ -1,0 +1,26 @@
+.daysNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+.trendingTypes{
+    margin: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    cursor: pointer;
+    padding:0.3rem;
+}
+.trendingTypes:hover{
+    background-color: #334155;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.hrLine{
+    opacity: 0.1;
+}
+
+
+
+

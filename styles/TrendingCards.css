@@ -1,0 +1,93 @@
+.blogCards{
+    margin: auto;
+    width: 95%;
+    justify-content: space-around;
+    /* height: 40rem; */
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trendingCards{
+    display: flex;
+    flex-direction: row;
+    background-color: #1E293B;
+    width: 48%;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    /* border: 1px solid white; */
+}
+
+.CardImg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+}
+
+.NameCard_ImageCard{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.addArticleIcon{
+    color: #0d45be;
+}
+.card{
+    margin: 0.4rem;
+}
+
+.headingfor_tagsOnTrending_SeeAllTagsBtn{
+    font-size:1.1rem;
+}
+
+
+/* New Added tags  */
+
+.NewlyAddedTags{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.NewlyAddedTagsFinalDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    background-color: #1E293B;
+    border-radius: 1rem;
+    height: 4rem;
+    
+}
+
+.NameOfNewlyAddedTag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newlyAddedTagsCardName{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    
+}
+.AddMoreNewlyAddedTagIcon{
+    display: flex;
+    align-items: center;
+}
+
+.NewlyAddedTagsFinalDiv{
+    background-color: #1E293B;
+}
+
+
+.card2{
+    margin: 0.5rem;
+}
+
+
+.hor_line{
+    margin-top: 2rem;
+    padding: 0.5rem;
+}

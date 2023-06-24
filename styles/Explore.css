@@ -1,0 +1,27 @@
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F172A;
+    padding:3rem;
+    border-radius: 1rem;
+    width:fit-content;
+    border: 1px solid rgb(87, 82, 82);
+}
+
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore_paragraph{
+   
+    margin-top: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    
+}

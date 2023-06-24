@@ -1,0 +1,103 @@
+.trendingTechBlogsHeadings{
+    display: flex;
+}
+
+.BlogPostsTech{
+    /* border: 1px solid white; */
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: #1E293B;
+    border: 0.01px solid #737275;
+    border-radius: 0.7rem;
+    height:16rem;
+}
+.BlogPostsTechNoteWrothyBlogs{
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: #1E293B;
+    border: 0.1px solid #27293d;
+    border-radius: 0.7rem;
+    height:5rem;
+}
+
+.BlogNumber_Logo_Name_Follow{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin: auto;
+    padding-top: 1rem;
+    /* border: 1px solid white; */
+
+}
+
+.logoAndNumber{
+    display: flex;
+    justify-content: space-between;
+    width:15rem;
+}
+
+.BlogImg_Names{
+    display: flex;
+    /* border: 1px solid white; */
+    width:11rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.ImageofTechBlog{
+    border-radius: 3rem;
+}
+.Number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FollowButton{
+    display: flex;
+    /* border: 1px solid white; */
+    align-items: center;
+    border-radius: 0.7rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    color: #246AF0;
+    /* border: 1px solid white; */
+    align-self: center;
+    cursor: pointer;
+   background-color: #0F172A;
+}
+.FollowButton:hover{
+    background-color: #334155;
+}
+.ImageofTechBlog{
+    width: 3rem;
+    height: 3rem;
+}
+
+.Date_BlaogDescription{
+    width:85%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.BlogPostingDate{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+.descriptionOne{
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+.BlogDescription{
+    width:25rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.NetworthyCards{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}

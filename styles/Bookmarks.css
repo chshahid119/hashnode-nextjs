@@ -1,0 +1,92 @@
+.SignUp_Login{
+    display: flex;
+    color: white;
+    
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid white; */
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.SignUHeading{
+    color: blueviolet;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.googleAuth{
+    display: flex;
+    
+    
+}
+
+.CeoVersalMsg{
+    width: 40%;
+}
+
+.Authentication_Options{
+    display: flex;
+    width: 55%;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+.googleAuth{
+    /* border: 1px solid white; */
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: rgb(65, 69, 73);
+    cursor: pointer;
+}
+.googleAuth:hover{
+    background-color: rgb(81, 90, 100);
+}
+
+.CompanyName{
+    border: 1px solid red;
+    border-radius: 2rem;
+}
+
+.ContinuewithWhat{
+    margin-left: 0.5rem;
+}
+
+
+.CeoVersalMsg{
+    /* border: 1px solid white; */
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+.ceoVerselMsg{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.CeoVersal{
+    margin: 1.5rem 0rem 0rem 1rem;
+    display: flex;
+}
+
+.NameCeo_Dest{
+    margin-left: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.4;
+    font-size: small;
+}
+
+
+
+
+
+
+

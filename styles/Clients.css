@@ -1,0 +1,287 @@
+/* Styling for Logo client component  */
+.logo{
+    width:2rem;
+    height: 2rem;
+    /* filter: hue-rotate(340deg); */
+}
+
+.logo_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   top:0.4rem;
+   
+}
+
+.brandName{
+    display: flex;
+    align-items: center;
+    margin-left: 0.6rem;
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+/* NavigationBar styling */
+
+/* CSS */
+
+  
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    min-width: 160px;
+    
+   
+    
+  }
+  
+  .dropdown-link {
+    display: block;
+    
+    text-decoration: none;
+    color: white;
+    background-color: #0F172A;
+    padding:1.3rem;
+    /* border-radius: 1rem; */
+    
+    
+  }
+
+
+  .dropdownimg{
+    width:1rem;
+    height: 1rem;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 1rem;
+    height: 1.5rem;
+  }
+  .nav-link{
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    margin:1.5rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .nav-link:hover{
+    border-radius: 5rem;
+    border: 0.3px solid rgb(34, 37, 48);
+    
+  }
+
+ 
+  nav ul li.active {
+    /* Define the styles for the active link */
+    background-color: #ff0000;
+    color: #ffffff;
+  }
+
+  .dropdownicon{
+    margin-left: 0.5rem;
+  }
+
+
+
+
+
+  /* Side Search and Write blog styling */
+
+  .side_navbar{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid white; */
+    /* font-weight: bold; */
+  }
+  
+  .newicon{
+    background: linear-gradient(208.15deg, rgb(52, 102, 246) -4.22%, rgb(52, 102, 246) -4.21%, rgb(124, 58, 237) 102.68%);
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem ;
+    font-size: xx-small;
+    /* border: 1px solid white; */
+  }
+
+.rix{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0rem 0.5rem 0rem 0.5rem;
+}
+.rix:hover{
+  border: 1px solid rgb(82, 79, 79);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.rix .pRix{
+  color: white;
+  text-decoration: none;
+  /* font-family: 'Nunito', sans-serif; */
+
+}
+.newicon{
+  margin-left: 0.5rem;
+}
+
+
+  .searchIcon{
+    /* border: 1px solid rgb(82, 79, 79); */
+    border-radius: 2rem;
+   
+    cursor: pointer;
+   
+  }
+  .searchIcon:hover{
+    color: #c5cbd8;
+  }
+
+  .SearchingIconInnerClass{
+    margin-top: 1rem;
+    margin-left: 1rem;
+   /* border: 1px solid white; */
+   border-radius: 2rem;
+ 
+   
+  }
+
+
+  
+  .writeHere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    background: #1b64d8;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    /* border: 1px solid white; */
+    height: 3rem;
+    align-self: center;
+    cursor: pointer;
+  }
+  .writeHere:hover{
+    background: #3B82F6;
+  }
+
+  .writeHere svg{
+    margin-right: 0.8rem;
+  }
+
+  .lastupdates{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    /* border: 1px solid white; */
+  }
+
+ .lastupdates svg{
+  margin-left: 0.9rem;
+ }
+ .icons{
+  cursor: pointer;
+ }
+
+ /* html,body{
+  background-color: white;
+  color: black;
+ } */
+
+
+
+ /* // One Week Post styling */
+
+ .profile_Name{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+ }
+ .name_others{
+  width:7rem;
+ }
+ .NameofAuthor{
+  margin-top: 0.3rem;
+  font-size: small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .LikeIcon{
+  margin-top: 0.5rem;
+  width:1.4rem;
+  height: 1.4rem;
+  filter: brightness(0) invert(1);
+  opacity: 0.5;
+  cursor: pointer;
+ }
+ .commentIcon{
+  width:1.4rem;
+  height: 1.4rem;
+  filter: brightness(0) invert(1);
+  opacity: 0.5;
+ }
+
+ .likes, .comments{
+  display: flex;
+  align-self: center;
+  
+ }
+.likesCount{
+  padding: 0.7rem;
+  align-items: center;
+  font-size: small;
+  cursor: pointer;
+}
+
+.commentsCount{
+  padding-left: 0.7rem;
+  align-items: center;
+  font-size: small;
+}
+
+.authorName{
+  margin-top: 0.3rem;
+  font-size: small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.showMore{
+  display: flex;
+  padding:0.8rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+  
+}
+.showMoreHeading{
+  color: #2562EB
+}
+.showMore:hover{
+  background-color: #334155;
+}
+.dropDownIcon{
+  display: flex;
+  align-self: center;
+  margin-left: 1rem;
+  filter: brightness(0) invert(1) hue-rotate(200deg);
+}
+ 
+
+
+
+  

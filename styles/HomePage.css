@@ -1,0 +1,344 @@
+.HomePage{
+    color: white;
+    margin-top: 2rem;
+}
+.HashnodePro{
+    width:62%;
+    margin: auto;
+}
+
+
+.IntroducingHashnodePro_TryItNowButton{
+    margin-top: 2rem;
+    display: flex;
+    border: 1px solid rgb(168, 162, 162);
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #6349F0;
+    border-radius: 1rem;
+
+}
+
+.IntroducingHashnodePro{
+     width: 60%;
+     font-family: 'Nunito', sans-serif;
+     word-spacing: 1px;
+     text-align: start;
+     font-weight: bold;
+     
+}
+
+
+
+.introducingUnderLine{
+    text-decoration: underline;
+   
+}
+
+.TryItNowButton{
+    border: 1px solid white;
+    align-self: center;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.TryItNowButton:hover{
+    background-color: #334155;
+}
+.btnPara{
+    padding: 0.7rem;
+}
+
+.MessageCard{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    background-color: #334155;
+    height:19rem;
+    /* align-items: center; */
+    border-radius: 2rem;
+    /* border: 1px solid white; */
+   
+}
+
+.imgofFounder{
+    margin-top: 3rem;
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    border-radius: 6rem;
+    /* border: 1px solid white; */
+    margin-left: 2rem;
+}
+
+.FounderMessage{
+    padding: 3rem;
+    width: 80%;
+    /* border: 1px solid white; */
+    height: fit-content;
+    align-items: center;
+    
+}
+
+.FounderMessage p{
+    text-align: start;
+    font-family: 'Nunito', sans-serif;
+    
+    line-height: 1.5rem;
+}
+
+.FounderMessage h5{
+    margin-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.JoinCommunity{
+    margin-top: 1rem;
+    /* border: 1px solid white; */
+    width: 13rem;
+    padding: 0.5rem;
+    align-items: center;
+    background-color: #2563eb;
+    border-radius: 3rem;
+   cursor: pointer;
+}
+.joinCommunityBtn{
+    /* border: 1px solid white; */
+    position: relative;
+    width: 9rem;
+    left: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.JoinCommunity:hover{
+    background-color: #437af1;
+}
+
+.NoAds_NoPaywall{
+    background-image: url('../src/images/backGroundImage.jpg');
+    
+    height: 190rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 3rem;
+    /* border: 1px solid white; */
+}
+.centerTheNoAdsHeading{
+    /* border: 1px solid white; */
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.ownContent{
+    /* border: 1px solid white; */
+    width: 30%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color:#6349F0;
+    /* margin-top: 2rem; */
+}
+
+.headingNoAds{
+    
+    width: 80%;
+    /* border: 1px solid white; */
+    margin: 3rem auto 0rem auto;
+    font-family: 'Roboto', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.headingNoAds span{
+    color:#6349F0;
+}
+
+.Blog_Audience_NoAds{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* border: 1px solid white; */
+    margin: 5rem auto 0rem auto;
+}
+.BlogOnYourPersonalDomain{
+   width: 22%;
+}
+.InstantlyFindYourAudience{
+    width: 22%;
+}
+.No_annoyingAds_pop_ups{
+    width: 22%;
+}
+
+.Adspara{
+    margin-top: 2.5rem;
+    width: 7rem;
+    color: white;
+    opacity: .6;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Blog_Audience_NoAds h2{
+    width: 7rem;
+    /* border: 1px solid white; */
+}
+
+.EverythingThatYouNeed{
+    margin-top: 3rem;
+    width: 60%;
+    margin: 7rem auto 0rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.keyfeature_h1 h5{
+    color: green;
+
+}
+
+
+.EverythingThatYouNeed h1{
+    margin-top: 2rem;
+    width: 13rem;
+}
+.Git_Write_Map_Superfast{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+}
+
+
+.Git{
+    display: flex;
+    width: 70%;
+    margin: 7rem auto 0rem auto;
+  
+}
+
+.gitHeading_Para{
+    width: 15rem;
+    margin-left: 1rem;
+
+}
+.gitHeading_Para h4{
+    width: 9rem;
+    
+}
+
+.gitHeading_Para p{
+    margin-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.footer{
+    width: 90%;
+    margin: 15rem auto 0rem auto;
+    /* border: 1px solid white; */
+}
+
+.Footer{
+    display: flex;
+    /* border: 1px solid white; */
+    height: 35rem;
+    justify-content: space-between;
+    
+    
+}
+.links{
+    
+    width: 8rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.links Link{
+    text-decoration: none;
+   
+}
+.Explore h3{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* .explore .premium .comparisons .support .officialBlogs{
+    justify-content: space-between;
+    width: 5rem;
+} */
+.footerLink{
+    opacity: 0.4;
+}
+.links > .footerLink{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+
+.links:hover{
+    background-color: rgb(54, 55, 56);
+}
+.explore{
+    width: 7rem;
+}
+
+.CopyRight_Policies{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin: auto;
+}
+
+.copyright{
+    margin-top: 8rem;
+    justify-self: center;
+    width: 10rem;
+    margin: auto;
+    opacity: 0.4;
+}
+.privacyPolicy{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    opacity: 0.4;
+}
+.copyrightLinks{
+    color: white;
+    margin: 1rem;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.log_NameOfCompany{
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    
+}
+
+.lastHashnode{
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid white; */
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: xx-large;
+    /* border: 1px solid white; */
+    
+}
+
+
+
+
+
+
+
+

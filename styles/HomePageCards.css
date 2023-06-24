@@ -1,0 +1,79 @@
+.mainHomePage{
+    width:62%;
+    margin: auto;
+    margin-top: 1.6rem;
+    
+}
+
+.HomeFortechWritersandReaders_JoinCommunity{
+    background-image: url('../src/images/backGroundImage.jpg');
+    height: 45rem;
+    display: flex;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    /* border: 1px solid white; */
+    justify-content: space-around;
+}
+
+.Headers{
+    margin-left: 3.5rem;
+    margin-top: 5rem;
+}
+.HomeforTech{
+   width:15rem;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bolder;
+   font-size:x-large;
+}
+.HomeforTech span{
+    color: #6349F0;
+}
+
+.TheHasslaPara{
+    margin-top: 2rem;
+    width: 16rem;
+    line-height: 1.3rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.SideImageofHomePage{
+    display: flex;
+    align-items: center;   
+}
+
+
+.BlogonCustom{
+    width: 15rem;
+}
+
+.BlogRefer_button{
+    margin-top: 2.5rem;
+    margin-left: 3.5rem;
+}
+
+.getStartedItsFreeBtn{
+    margin-top: 0.7rem;
+    margin-left: 0.3rem;
+    /* border: 1px solid white; */
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #215fe4;
+    cursor: pointer;
+}
+.getStartedItsFreeBtn:hover{
+    background-color: #3c68c7;
+}
+
+.FounderFreeCodeCampReview{
+    background-image: url('../src/images/backGroundImage.jpg');
+    height: 40rem;
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: space-around;
+
+}

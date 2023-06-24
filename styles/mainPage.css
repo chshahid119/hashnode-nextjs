@@ -1,0 +1,56 @@
+/* MAIN PAGE DESIGNING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.root{
+    width:70%;
+    margin: auto;
+    margin-top: 1.5rem;
+    
+}
+
+.blog_trends{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.explore_blogs{
+    display: flex;
+    width: 65%;
+    height: 20%;
+  
+    
+}
+
+.trends{
+    width:22%;
+    /* border: 1px solid white; */
+    margin-left: 2rem;
+    background-color: #0F172A;
+    border-radius: 1rem;
+    height: fit-content;
+    border: 0.1px solid rgb(117, 112, 112);
+}
+
+.trendingTags{
+   /* border: 1px solid white; */
+   margin-top: 1rem;
+   max-height: fit-content;
+   background-color: #0F172A;
+   border-radius: 1rem;
+   border: 0.1px solid rgb(117, 112, 112);
+
+}
